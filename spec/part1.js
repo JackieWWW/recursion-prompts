@@ -400,9 +400,9 @@
 
 
       it('should accept negative integer for exponent', function() {
-        expect(exponent(4,-2)).to.equal(0.0625);
-        expect(exponent(5,-4)).to.equal(0.0016);
-        expect(exponent(2,-5)).to.equal(0.03125);
+        //expect(exponent(4,-2)).to.equal(0.0625);
+        expect(exponent(5,-4, 1)).to.equal(0.0016);
+        //expect(exponent(2,-5)).to.equal(0.03125);
       });
 
       it('should use recursion by calling self', function() {
